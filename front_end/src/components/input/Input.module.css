@@ -1,0 +1,23 @@
+/** @format */
+
+.containerInput {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Coming Soon', cursive;
+	width: 100%;
+}
+
+label {
+	font-weight: 600;
+	text-align: center;
+}
+
+input {
+	height: 3em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-size: large;
+	border-radius: 0.5em;
+	border: none;
+	font-family: 'Coming Soon', cursive;
+}

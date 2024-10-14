@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5em 0;
+}
+
+.div_logo {
+    width: 8%;
+    padding-left: 0.5em;
+}
+
+.div_h1 {
+    width: 92%;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 30px;
+}

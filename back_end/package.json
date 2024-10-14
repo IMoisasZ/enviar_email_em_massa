@@ -1,0 +1,23 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "app para enviar emails dos holerites",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "IMoisasZ",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "back_end": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "uuid": "^10.0.0",
+    "winston": "^3.15.0"
+  }
+}
