@@ -1,4 +1,4 @@
-<p align="center"><a href="#"><img src="./back_end/back_end/src/assets/logo_app.webp" width="400"></a></p>
+<p align="center"><a href="#"><img src="./back_end/src/assets/logo_app.webp" width="400"></a></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/node"><img src="https://img.shields.io/npm/v/node" alt="Latest Stable Version"></a>
