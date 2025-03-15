@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import Container from '../../components/container/container'
 import Header from '../../components/header/header'
-import logo from '../../anexos/logo.jpg'
+import logo from '../../anexos/logo_img.webp'
 import Form from '../../components/form/form'
 import Input from '../../components/input/input'
 import Button from '../../components/button/button'
@@ -223,10 +223,7 @@ export default function Users() {
 		<Container
 			width='100%'
 			margin='2em auto'>
-			<Header
-				logo={logo}
-				title='DESTAQ & INJETAQ - ENVIO DE DEMONSTRATIVO DE PAGAMENTO'
-			/>
+			<Header logo={logo} />
 			<Form
 				width='100%'
 				margin='2em auto'

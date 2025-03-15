@@ -1,72 +1,76 @@
-<!-- @format -->
+<p align="center"><a href="#"><img src="../back_end/src/assets/logo_app.webp" width="400"></a></p>
 
-# Getting Started with Create React App
+<p align="center">
+<a href="https://www.npmjs.com/package/react"><img src="https://img.shields.io/npm/v/react" alt="Latest Stable Version"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/react" alt="License"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+Este é o frontend da aplicação para envio de emails em massa, desenvolvido em **React ^18.3.1**. Ele permite o cadastro de usuários e o envio de emails personalizados para cada um deles.
 
-In the project directory, you can run:
+## Recursos Principais
 
-### `npm start`
+- Estrutura organizada utilizando componentes reutilizáveis.
+- Utilização do **Axios** para requisições HTTP.
+- Implementação do **UUID** para gerar identificadores únicos.
+- Gerenciamento eficiente de estados com hooks e contexto do React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependências
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Dependência                                                                            | Versão  |
+| -------------------------------------------------------------------------------------- | ------- |
+| [React](https://react.dev/)                                                            | ^18.3.1 |
+| [Axios](https://axios-http.com/)                                                       | ^1.7.7  |
+| [UUID](https://www.npmjs.com/package/uuid)                                             | ^10.0.0 |
+| [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) | ^13.4.0 |
+| [Jest DOM](https://github.com/testing-library/jest-dom)                                | ^5.17.0 |
+| [React Scripts](https://www.npmjs.com/package/react-scripts)                           | 5.0.1   |
+| [Web Vitals](https://web.dev/vitals/)                                                  | ^2.1.4  |
 
-### `npm test`
+## Estrutura do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+anexos
+components
+pages
+utils
+index.js
+App.js
+package.json
+package-lock.json
+.gitignore
+```
 
-### `npm run build`
+## Imagem do Sistema
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="../front_end//src/anexos/sistema_img.png" width="600">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Entrada dos Dados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para que os emails sejam enviados, é necessário que o cadastro das pessoas esteja completo. O formato dos dados de entrada é o seguinte:
 
-### `npm run eject`
+```json
+{
+	"name": "",
+	"email": "",
+	"anexo": ""
+}
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como Executar o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Instale as dependências com o comando:
+   ```bash
+   npm install
+   ```
+2. Execute o projeto com:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por **IMoisasZ**
